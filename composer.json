@@ -1,0 +1,26 @@
+{
+    "name": "milestone/payroll",
+    "description": "Milestone Payroll Management System",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Milestone Innovative Technologies",
+            "email": "info@milestoneit.net"
+        }
+    ],
+    "require": {
+		"milestone/appframe": "^0.11.2"
+	},
+    "autoload": {
+        "psr-4": {
+            "Milestone\\Payroll\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milestone\\payroll\\PayrollServiceProvider"
+            ]
+        }
+    }
+}
